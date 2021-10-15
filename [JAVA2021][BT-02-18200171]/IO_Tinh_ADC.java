@@ -64,7 +64,7 @@ public class IO_Tinh_ADC {
 							else System.out.printf("Khong co ADC nay\n");
 						}
 					}
-					System.out.printf("%f",tb/dem);
+					System.out.printf("ADC%s %.2f %s",adc,tb/dem,ngay);
 					System.out.printf("\nNhap 0 de thoat 1 de tiep tuc\n");
 					loop =input.nextInt();
 				}
